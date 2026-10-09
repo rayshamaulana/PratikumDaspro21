@@ -23,3 +23,18 @@ Studi Kasus 1 - Kedai Kopi Senja (Pemilihan Dasar)
  | No |  Jenis  | Dokumen | Juara/Dana |    Output     | Sesuai? |
  |----|-------  |---------|------------|---------------|---------|	
  | 1  |BELMAWA  |   4     |    3       |    Berhak     |   Ya    |
+
+
+
+ Hasil Uji Studi Kasus 2 oleh Muhammad Raysha Maulana
+ | No |  Jenis  | Dokumen | Juara/Dana |    Output     | Sesuai? |
+ |----|-------  |---------|------------|---------------|---------|	
+ | 1  | BAKORMA |    3    |     1      | Tidak Berhak  |   Ya    |
+ | 2  | MANDIRI |    4    |     0      | Tidak Berhak  |   Ya    |
+ | 3  | PKM     |    4    |     1      | Berhak        |   Ya    |
+
+ Jika P GANJIL: jenis kegiatan = "PKM", dDokumen = 2 + (21 mod 3) = 2 + 0 = 2, status pendanaan = 1 (lolos).
+ Hasil Punya Saya 
+| No |  Jenis  | Dokumen | Juara/Dana |    Output     | Sesuai? |
+|----|-------  |---------|------------|---------------|---------|	
+| 1  |   PKM   |    2    |     1      |    Berhak     |   Ya    |
