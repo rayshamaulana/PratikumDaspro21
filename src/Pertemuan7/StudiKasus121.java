@@ -7,8 +7,8 @@ public class StudiKasus121 {
         Scanner input = new Scanner(System.in);
  
         int hargaPerCup = 18000;
-        int minimalDiskon = 100000;
-        int persenDiskon = 10;
+        int minimalDiskon = 90000;
+        int persenDiskon = 8;
  
         int jumlahCup, uangBayar;
         int totalHarga, diskon, totalBayar;
