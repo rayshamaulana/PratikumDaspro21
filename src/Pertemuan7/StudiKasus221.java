@@ -13,7 +13,7 @@ public class StudiKasus221 {
         System.out.print("Nama mahasiswa : ");
         namaMahasiswa = raysha.nextLine();
  
-        System.out.print("Jenis kegiatan (BELMAWA/BAKORMA/MANDIRI/PKM/LAINNYA) : ");
+        System.out.print("Jenis kegiatan (BELMAWA/BAKORMA/MANDIRI/PKM/LAINNYA): ");
         jenisKegiatan = raysha.nextLine();
  
         if (jenisKegiatan.equalsIgnoreCase("BELMAWA") ||
