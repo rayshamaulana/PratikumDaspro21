@@ -9,11 +9,9 @@ public class Star21 {
         System.out.print("Masukkan nilai n = ");
         int n = raysha.nextInt();
 
-        for (int i = 1; i < n; i++) {
-            System.out.print("*");
-        }
-        System.out.println();
-
+       for (int i = 2; i <= n; i += 2) {
+            System.out.print(i + " ");
+}
         raysha.close();
     }
 }
