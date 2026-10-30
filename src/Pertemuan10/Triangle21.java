@@ -10,12 +10,12 @@ public class Triangle21 {
 
         int i = 0;
         while (i <= n) {
-           System.out.print("[i=" + i + "] ");   // debug sementara
-           int j = 0;
+            int j = 0;
             while (j < i) {
                 System.out.print("*");
                 j++;
             }
+            System.out.println();   // perbaikan 1
             i++;
         }
         raysha.close();
