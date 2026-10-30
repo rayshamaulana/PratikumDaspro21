@@ -8,7 +8,7 @@ public class Triangle21 {
          System.out.print("Masukkan nilai n = ");
         int n = raysha.nextInt();
 
-        int i = 0;
+        int i = 1;                  // perbaikan 2
         while (i <= n) {
             int j = 0;
             while (j < i) {
