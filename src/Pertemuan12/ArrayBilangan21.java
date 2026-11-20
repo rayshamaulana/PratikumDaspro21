@@ -11,7 +11,7 @@ public class  ArrayBilangan21 {
         bil[3] = 26;
 
         for (int i = 0; i < bil.length; i++) {
-            System.out.println("Bil [" + i + "] = " + bil[i]);
+             System.out.println("bil[" + i + "] = " + bil[i] + ", double = " + (bil[i] * 2));
         }
         for (int i : bil) {
             System.out.println(i);
