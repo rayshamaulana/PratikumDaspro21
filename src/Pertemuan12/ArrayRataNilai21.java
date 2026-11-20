@@ -6,7 +6,13 @@ public class ArrayRataNilai21 {
     public static void main(String[] args) {
         Scanner raysha = new Scanner(System.in);
 
-        int[] nilaiMhs = new int[10];
+        int n;
+        do {
+            System.out.print("Masukkan jumlah mahasiswa: ");
+            n = raysha .nextInt();
+        } while (n <= 0);
+
+        int[] nilaiMhs = new int[n];
         int total = 0;
         double rata2;
         int jumlahLulus = 0;
