@@ -1,9 +1,20 @@
 package Pertemuan12;
-
+import java.util.Scanner;
 public class SearchNilai21 {
     public static void main(String[] args) {
-        int[] nilai = {78, 65, 90, 55, 88, 72};
-        int key = 100;
+        Scanner raysha = new Scanner(System.in);
+
+        System.out.print("Masukkan banyaknya elemen: ");
+        int n = raysha.nextInt();
+        int[] nilai = new int[n];
+
+        for (int i = 0; i < nilai.length; i++) {
+            System.out.print("Masukkan nilai ke-" + (i + 1) + ": ");
+            nilai[i] = raysha.nextInt();
+        }
+
+        System.out.print("Masukkan nilai yang dicari (key): ");
+        int key = raysha.nextInt();
         boolean ditemukan = false;
 
         for (int i = 0; i < nilai.length; i++) {
@@ -16,5 +27,6 @@ public class SearchNilai21 {
         if (!ditemukan) {
             System.out.println("Nilai " + key + " tidak ditemukan.");
         }
+        raysha.close();
     }
 }
